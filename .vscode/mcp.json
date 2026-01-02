@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"test-mcp-server": {
+			"type": "stdio",
+			"command": "/Users/grendel/repos/mcp_test/.venv/bin/python",
+			"args": [
+				"/Users/grendel/repos/mcp_test/server.py"
+			]
+		}
+	},
+	"inputs": []
+}
