@@ -47,12 +47,12 @@ The server listens on `stdio` by default. It assumes an MCP-compliant client wil
 ## Commit Pattern
 
 According to Google, there are *11* types of commits (listed below).  
-  
+
 Please mark the beginning of your commit with an identifier string indicating what type of commit it is.    
 This helps keep track of the development cadence and is also useful for extracting relevant information  
 from commit history. I also realize I am talking to myself here lol.  
 
-Example: ```git commit -m "docs: Adding documentation because I am a responsble engineer"```
+Example: ```git commit -m "docs: Adding documentation because I am a responsible engineer"```
 
 **feat**: Introduces a new feature.  
 **fix**: Patches a bug in the code.  
