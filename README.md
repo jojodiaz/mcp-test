@@ -1,9 +1,10 @@
-# Test MCP Server
-
-Test MCP Server
+# MCP Server for local development context
 
 ## Description
-
+This project is designed to facilitate the usage of MCP-compliant clients such as Claude Code, Claude Desktop, Google Gemini, etc.  
+By having this local MCP server running and configured with an MCP client, you essentially allow the client access the the *tools* and *resources* that server.py exposes.  
+This allows, for example, your MCP client to be able to run certain git commands on your computer, and receive the output so that it can gain context.  
+There are ambitious plans to expand this project to analyze code significantly, including plans to expose the python dis module so that the client can view bytecode generated from different code segments and replace it to increase different metrics.
 
 ## Prerequisites
 
