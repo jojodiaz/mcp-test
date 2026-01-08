@@ -7,7 +7,6 @@ sys.path.append(os.path.abspath("."))
 
 from mcp.client.stdio import stdio_client, StdioServerParameters
 from mcp.client.session import ClientSession
-from mcp.types import ClientRequest, CallToolRequest, Tool
 
 server_script = "/Users/grendel/repos/mcp_test/server.py"
 python_executable = "/Users/grendel/repos/mcp_test/.venv/bin/python"

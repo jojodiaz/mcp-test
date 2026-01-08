@@ -1,5 +1,4 @@
 from mcp.server.fastmcp import FastMCP
-import os
 from pathlib import Path
 import subprocess as sp
 
@@ -98,9 +97,6 @@ def git_check_if_repo(path: str) -> bool:
     except Exception:
         return False
     
-
-    
-
 if __name__ == "__main__":
     mcp.run() # stdio by default
 
